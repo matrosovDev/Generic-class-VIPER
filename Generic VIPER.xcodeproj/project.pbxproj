@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				FA1BEDF42280F40B00D1641C /* BaseSearch */,
-				FA1BEDE42280F3E600D1641C /* Muscles */,
+				FA1BEDE42280F3E600D1641C /* Foods */,
 				FA1BEDD02280F3AD00D1641C /* AppDelegate.swift */,
 				FA1BEDD22280F3AD00D1641C /* ViewController.swift */,
 				FA1BEDD42280F3AD00D1641C /* Main.storyboard */,
@@ -92,7 +92,7 @@
 			path = "Generic VIPER";
 			sourceTree = "<group>";
 		};
-		FA1BEDE42280F3E600D1641C /* Muscles */ = {
+		FA1BEDE42280F3E600D1641C /* Foods */ = {
 			isa = PBXGroup;
 			children = (
 				FA1BEDE52280F3E600D1641C /* FoodsPresenter.swift */,
@@ -103,7 +103,7 @@
 				FA1BEDEA2280F3E600D1641C /* FoodsRouter.swift */,
 				FA1BEDEB2280F3E600D1641C /* FoodsDataSource.swift */,
 			);
-			path = Muscles;
+			path = Foods;
 			sourceTree = "<group>";
 		};
 		FA1BEDF42280F40B00D1641C /* BaseSearch */ = {
