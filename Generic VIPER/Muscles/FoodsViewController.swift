@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FoodsViewController: BaseSearchViewController {
+class FoodsViewController: BaseSearchViewController<Food> {
     
     static func buildViewController() -> FoodsViewController {
         

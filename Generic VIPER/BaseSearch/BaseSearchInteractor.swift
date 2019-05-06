@@ -8,8 +8,8 @@
 
 import Foundation
 
-class BaseSearchInteractor {
+class BaseSearchInteractor<T> {
     
-    var presenter: BaseSearchPresenter<Any>?
+    var presenter: BaseSearchPresenter<T>?
     
 }

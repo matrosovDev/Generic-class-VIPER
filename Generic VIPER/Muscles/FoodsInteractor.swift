@@ -8,6 +8,6 @@
 
 import Foundation
 
-class FoodsInteractor: BaseSearchInteractor {
+class FoodsInteractor: BaseSearchInteractor<Food> {
     
 }

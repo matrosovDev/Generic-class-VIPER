@@ -8,10 +8,10 @@
 
 import UIKit
 
-class BaseSearchViewController: UIViewController {
+class BaseSearchViewController<T>: UIViewController {
     
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
     
-    var presenter: BaseSearchPresenter<Any>?
+    var presenter: BaseSearchPresenter<T>?
 }

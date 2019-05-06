@@ -18,7 +18,7 @@ class FoodsConfigurator {
         
         presenter.items = foods
         
-        viewController.presenter = presenter as? BaseSearchPresenter<Any>
+        viewController.presenter = presenter
         
         return viewController
     }

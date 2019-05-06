@@ -11,13 +11,13 @@ import UIKit
 class BaseSearchPresenter<T> {
     
     private weak var viewController: UIViewController?
-    private var interactor: BaseSearchInteractor?
+    private var interactor: BaseSearchInteractor<T>?
     private var router: BaseSearchRouter?
     
     var items = [T]()
     
     init(with sourceViewController: UIViewController,
-         sourceInteractor: BaseSearchInteractor, sourceRouter: BaseSearchRouter) {
+         sourceInteractor: BaseSearchInteractor<T>, sourceRouter: BaseSearchRouter) {
         viewController = sourceViewController
         interactor = sourceInteractor
         router = sourceRouter
